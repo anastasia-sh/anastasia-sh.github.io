@@ -6,7 +6,7 @@
   font-weight: normal; }
 
 @font-face {
-  font-family: "Lobster";
+  font-family: 'Lobster', arial;
   src: url("../fonts/Lobster.ttf");
  
   font-style: normal;
