@@ -1,0 +1,224 @@
+@font-face {
+			font-family: "HelveticaRegular";
+			src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+			src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+			url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "HelveticaBold";
+			src: url("../fonts/HelveticaBold/HelveticaBold.eot");
+			src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"),
+			url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "HelveticaThin";
+			src: url("../fonts/HelveticaThin/HelveticaThin.eot");
+			src: url("../fonts/HelveticaThin/HelveticaThin.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/HelveticaThin/HelveticaThin.woff") format("woff"),
+			url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+.container {
+	max-width: 1024px;
+	
+}
+.header {
+	width: 100%;
+	background: rgb(236, 236, 236);
+background: linear-gradient(179deg, rgb(236, 236, 236) 15%, rgb(228, 228, 228) 66%);
+}
+
+.nav div h1  {
+  font-family: 'Lobster', arial;
+  font-size: 3.5em;
+  color: #676666;
+  line-height: 1.6em;
+  padding-bottom: 0.2em;
+  padding-left: 17px;
+  span {
+  	color: #ff7700;
+  }
+}
+
+.nav ul {
+	margin-bottom: 0;
+	
+}
+.nav ul li {
+	display: inline-table;
+	line-height: 100px;
+	
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+	a {
+	font-family: "HelveticaRegular";
+	font-size: 1.14em;
+	color: #545454;
+	text-decoration: none;
+	height: 100%;
+    display: block;
+    padding: 13px 20px 0 20px;
+    position: relative;
+
+    img {
+    	position: absolute;
+    	top: 35px;
+    	left: 50%;
+    	-webkit-transform: translate(-50%, -50%);
+    	        transform: translate(-50%, -50%);
+    }
+	
+	}
+	a:hover, a:active {
+	border-bottom: 5px solid #ff7d00;
+	background: rgb(215, 209, 209);
+
+	}
+
+}
+/*section1*/
+.section1 h2 {
+font-family: "HelveticaBold";
+font-size: 2em;
+color: #565555;
+margin-bottom: 1em;
+}
+form input.txt {
+	display: inline-block;
+	border-radius: 5px;
+	border-color: #cacaca;
+	width: 100%;
+	max-width: 450px;
+	height: 45px;
+}
+input.file {
+	display: inline-block!important;
+	width:95px;
+	height: 30px;
+	border-radius: 5px;
+	color: #fff;
+	background: #c1bfbf;
+	border:none;
+	margin-left: -110px;
+	font-family: "HelveticaThin";
+	font-size: 1.28em;
+	margin-bottom: 20px;
+	
+}
+
+input.file:hover {
+	border:#969292;
+}
+.but {
+	width: 210px;
+	height: 45px;
+	border-radius: 5px;
+	background: #ff7600;
+	border:none;
+	font-size: 1.71em;
+	font-family: "HelveticaBold";
+	color: #fff;
+	margin-left: 20px;
+
+}
+.but:hover {
+	background: #f8953f;
+}
+/*section2*/
+.section2 p {
+	font-family: "HelveticaThin";
+	font-size: 1.07em;
+	color: #9c9a9a;
+
+
+}
+.marg {
+	margin: 0 auto 10px auto;
+    display: table;
+}
+.share {
+	text-align: right;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.ico1 {
+	width: 30px;
+	height: 25px;
+	background-image: url(../img/sprait.jpg);
+	background-position: 1px 1px;
+	cursor: pointer;
+	display: inline-block;
+}
+.ico2 {
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/sprait.jpg);
+	background-position: 81px 1px;
+	cursor: pointer;
+	display: inline-block;
+}
+.ico3 {
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/sprait.jpg);
+	background-position: 53px 82px;
+	cursor: pointer;
+	display: inline-block;
+}
+.ico4 {
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/sprait.jpg);
+	background-position: 28px 82px;
+	cursor: pointer;
+	display: inline-block;
+}
+.border_bottom {
+	width: 203px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0dfdf;
+} 
+.wrapp_ico {
+	position: absolute;
+	bottom: 30px;
+	right: 28px;
+}
+.wrapp1 {
+	position: relative;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	border: 1px solid #cacaca;
+	border-radius: 5px;
+	max-width: 240px;
+	margin: 20px auto;
+
+}
+
+/*media*/
+@media (max-width: 992px) {
+	.nav div h1 {
+		text-align: center;
+	}
+	.nav ul {
+	
+	text-align: center;
+}
+}
+@media (max-width: 1200px) {
+	.but {
+		margin-left: 0;
+	}
+}
+@media (max-width: 520px) {
+	form input.txt {
+		width: 90%;
+	}
+}
