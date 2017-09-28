@@ -4,7 +4,15 @@
   src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
-
+@font-face {
+			font-family: "Lobster";
+			src: url("../fonts/lobsterRegular.eot");
+			src: url("../fonts/lobsterRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/lobsterRegular.woff") format("woff"),
+			
+			font-style: normal;
+			font-weight: normal;
+	}
 @font-face {
   font-family: "Lobster";
   src: url("../fonts/Lobster.ttf") format("truetype");
