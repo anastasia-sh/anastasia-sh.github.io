@@ -6,6 +6,13 @@
   font-weight: normal; }
 
 @font-face {
+  font-family: "Lobster";
+  src: url("../fonts/Lobster.ttf");
+ 
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
   font-family: "HelveticaBold";
   src: url("../fonts/HelveticaBold/HelveticaBold.eot");
   src: url("../fonts/HelveticaBold/HelveticaBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaBold/HelveticaBold.woff") format("woff"), url("../fonts/HelveticaBold/HelveticaBold.ttf") format("truetype");
